@@ -12,6 +12,7 @@ import Contacto from './Contacto';
 import Configuracion from './Configuracion';
 import Home from './Home';
 import Ubicacion from './Ubicacion';
+import Acercade from './Acercade'; 
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Inventario" element={<Inventario />} /> {/* Define la ruta para Inventariol */}
           <Route path="/Configuracion" element={<Configuracion />} /> {/* Define la ruta para Configuracion*/}
           <Route path="/Ubicacion" element={<Ubicacion />} /> {/* Define la ruta para Configuracion*/}
+          <Route path="/Acercade" element={<Acercade />} /> {/* Define la ruta para Configuracion*/}
         </Routes>
       </div>
     </Router>

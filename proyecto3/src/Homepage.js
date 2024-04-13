@@ -52,7 +52,7 @@ const HomePage = () => {
         </Link>
 
         {/* Botón para redirigir a Sobrenosotros.js */}
-        <Link to="/sobrenosotros">
+        <Link to="/Acercade">
           <button className="block rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto">
             Acerca de Nosotros
           </button>
